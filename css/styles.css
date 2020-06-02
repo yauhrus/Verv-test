@@ -73,11 +73,13 @@
   font-weight: 300;
   font-size: 12px;
   line-height: 17px;
+  text-transform: lowercase;
   letter-spacing: 0.0301714px;
 }
 .banner__button button {
   background: linear-gradient(270deg, rgba(255, 86, 141, 0.98) 0%, rgba(245, 1, 71, 0.98) 100%);
   border-radius: 100px;
+  border: none;
   font-family: SF Pro Text;
   font-style: normal;
   font-weight: bold;
@@ -142,4 +144,15 @@
   color: #000000;
   mix-blend-mode: normal;
   opacity: 0.56;
+}
+.banner__link--terms {
+  margin-right: 10px;
+}
+.banner__fader {
+  width: 100%;
+  height: 42px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.0001) 0%, #FFFFFF 88.45%);
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
 }
