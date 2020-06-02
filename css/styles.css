@@ -44,10 +44,17 @@
   font-weight: bold;
   font-size: 32px;
   line-height: 38px;
-  text-align: center;
   letter-spacing: 0.0492308px;
+  text-align: center;
   color: #333333;
   margin-bottom: 31px;
+}
+@media (min-width: 375px) {
+  .banner__main-content h1 {
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: 0.0523077px;
+  }
 }
 .banner__button {
   display: flex;
@@ -69,12 +76,23 @@
   text-transform: uppercase;
   color: #EE334B;
 }
+@media (min-width: 375px) {
+  .banner__button h2 {
+    font-size: 22px;
+    line-height: 17px;
+  }
+}
 .banner__button h2 span {
   font-weight: 300;
   font-size: 12px;
   line-height: 17px;
   text-transform: lowercase;
   letter-spacing: 0.0301714px;
+}
+@media (min-width: 375px) {
+  .banner__button h2 span {
+    font-size: 14px;
+  }
 }
 .banner__button button {
   background: linear-gradient(270deg, rgba(255, 86, 141, 0.98) 0%, rgba(245, 1, 71, 0.98) 100%);
@@ -85,12 +103,24 @@
   font-weight: bold;
   font-size: 12px;
   line-height: 17px;
-  text-align: center;
   letter-spacing: 0.0192px;
+  text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
   width: 140px;
   height: 41px;
+}
+@media (min-width: 375px) {
+  .banner__button button {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.0224px;
+  }
+}
+@media (min-width: 375px) {
+  .banner__button button {
+    width: 162px;
+  }
 }
 .banner__button button:focus {
   outline: none;
@@ -117,6 +147,11 @@
   line-height: 33px;
   letter-spacing: -0.65px;
   color: #000000;
+}
+@media (min-width: 375px) {
+  .banner__access li {
+    font-size: 17px;
+  }
 }
 .banner__access li:before {
   content: url('../img/days_checked.svg');
