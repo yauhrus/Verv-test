@@ -1,0 +1,144 @@
+@iphoneX: 375px;
+@iphone8Plus: 414px;
+@iphoneSE: 320px;
+@iphone8: 375px;
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.banner {
+	min-width: 320px;
+	max-width: 812px;
+	width: 100%;
+	
+	&__main-content {
+		width: 100%;
+		padding: 0 20px;
+		box-sizing: border-box;
+		margin-top: 89px;
+		margin-bottom: 47px;
+
+		h1 {
+			font-family: SF Pro Display;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 32px;
+			line-height: 38px;
+			text-align: center;
+			letter-spacing: 0.0492308px;
+			color: #333333;
+			margin-bottom: 31px;
+		}
+	}
+
+	&__button {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 15px 15px 14px 29px;
+		box-sizing: border-box;
+		width: 100%;
+		border: 1px solid #EE334B;
+		border-radius: 100px;
+
+		h2 {
+			font-family: SF Pro Text;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 17px;
+			letter-spacing: 0.0352px;
+			text-transform: uppercase;
+			color: #EE334B;
+
+			span {
+				font-weight: 300;
+				font-size: 12px;
+				line-height: 17px;
+				letter-spacing: 0.0301714px;
+			}
+		}
+
+		button {
+			background: linear-gradient(270deg, rgba(255, 86, 141, 0.98) 0%, rgba(245, 1, 71, 0.98) 100%);
+			border-radius: 100px;
+			font-family: SF Pro Text;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 17px;
+			text-align: center;
+			letter-spacing: 0.0192px;
+			text-transform: uppercase;
+			color: #FFFFFF;
+			width: 140px;
+			height: 41px;
+
+			&:focus {
+				 outline: none;
+			}
+
+			&:active {
+				border-style: none;
+			}
+		}
+	}
+
+	&__button--trial {
+		margin-bottom: 16px;
+	}
+
+	&__button--join {
+		margin-bottom: 32px;
+	}
+
+	&__access {
+		margin: 0 26px;
+		list-style: none;
+
+		li {
+			font-family: SF Pro Text;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 33px;
+			letter-spacing: -0.65px;
+			color: #000000;
+
+			&:before {
+				content: url('../img/days_checked.svg');
+				width: 11px;
+				height: 11px;
+				margin-right: 11px;
+			}
+		}
+
+	}
+
+	&__subscription {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		padding: 0 6px;
+		box-sizing: border-box;
+		margin-bottom: 9px;
+		p, a {
+			font-family: SF Pro Text;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 11px;
+			line-height: 13px;
+			text-align: center;
+			color: #000000;
+			mix-blend-mode: normal;
+			opacity: 0.56;
+		}
+	}
+}
+
+
+
