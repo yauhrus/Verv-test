@@ -105,7 +105,7 @@
   margin-bottom: 32px;
 }
 .banner__access {
-  margin: 0 26px;
+  margin: 0 auto;
   list-style: none;
 }
 .banner__access li {
@@ -144,6 +144,9 @@
   color: #000000;
   mix-blend-mode: normal;
   opacity: 0.56;
+}
+.banner__subscription-text {
+  z-index: 3;
 }
 .banner__link--terms {
   margin-right: 10px;
