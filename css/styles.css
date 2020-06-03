@@ -195,7 +195,7 @@ body {
     padding: 0 53px;
   }
 }
-@media (width: 375px) and (height: 812px) {
+@media (min-width: 375px) and (min-height: 812px) {
   .banner__subscription {
     margin-top: -62px;
     margin-bottom: 39px;
@@ -232,7 +232,7 @@ body {
     height: 42px;
   }
 }
-@media (width: 375px) and (height: 812px) {
+@media (min-width: 375px) and (min-height: 812px) {
   .banner__fader {
     bottom: 30px;
   }
@@ -245,7 +245,7 @@ body {
   top: 14px;
   right: 16px;
 }
-@media (width: 375px) and (height: 812px) {
+@media (min-width: 375px) and (min-height: 812px) {
   .banner__close {
     top: 57px;
   }
