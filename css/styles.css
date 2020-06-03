@@ -22,6 +22,78 @@
   font-weight: bold;
   font-style: normal;
 }
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px 14px 29px;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #EE334B;
+  border-radius: 100px;
+}
+.button-self {
+  background: linear-gradient(270deg, rgba(255, 86, 141, 0.98) 0%, rgba(245, 1, 71, 0.98) 100%);
+  border-radius: 100px;
+  border: none;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.0192px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 140px;
+  height: 41px;
+}
+@media (min-width: 375px) {
+  .button-self {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.0224px;
+  }
+}
+@media (min-width: 375px) {
+  .button-self {
+    width: 162px;
+  }
+}
+.button-self:focus {
+  outline: none;
+}
+.button-self:active {
+  border-style: none;
+}
+.button-main-text {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: 0.0352px;
+  text-transform: uppercase;
+  color: #EE334B;
+}
+@media (min-width: 375px) {
+  .button-main-text {
+    font-size: 22px;
+    line-height: 17px;
+  }
+}
+.button-secondary-text {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  text-transform: lowercase;
+  letter-spacing: 0.0301714px;
+}
+@media (min-width: 375px) {
+  .button-secondary-text {
+    font-size: 14px;
+  }
+}
 * {
   padding: 0;
   margin: 0;
