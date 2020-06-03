@@ -46,6 +46,12 @@ body {
   padding: 0 20px;
   box-sizing: border-box;
 }
+@media (orientation: landscape) and (min-width: 566px) {
+  .banner__main-content {
+    margin-top: 89px;
+    margin-bottom: 87px;
+  }
+}
 .banner__main-content h1 {
   font-family: SF Pro Display;
   font-style: normal;
